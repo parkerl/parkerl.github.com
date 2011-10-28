@@ -11,8 +11,11 @@ plugins:     ./_plugins
 future:      true
 lsi:         false
 pygments:    true
-markdown:    maruku
+markdown:    redcarpet
 permalink:   date
+
+redcarpet:
+  extensions: []
 
 maruku:
   use_tex:    false

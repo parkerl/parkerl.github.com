@@ -5,7 +5,15 @@ permalink: test.html
 ---
 
 ##This is a test##
-    Here is some code
+
+{%highlight ruby%} 
+ #Here is some code
+    def class Test
+      def test
+      
+      end
+    end
+{%endhighlight%} 
 
 - test
 - test
@@ -13,7 +21,7 @@ permalink: test.html
 
 Test
 
-> This is another test. This is another test. This is another test. Yet another test. 
+> This is another test. `This is another test`. This is another test. Yet another test. 
 >
 > Here is a final test. 
 >
