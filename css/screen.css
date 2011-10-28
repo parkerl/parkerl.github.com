@@ -126,7 +126,7 @@ img {
 }
 .threecol .colmid {
 	right:25%;			/* width of the right column */
-	background:#fffcec;		/* center column background colour */
+	background: url("/images/middle-background.jpg") repeat-x scroll center top #fffcec;		/* center column background colour */
 	min-height: 800px;
 }
 .threecol .colleft {
