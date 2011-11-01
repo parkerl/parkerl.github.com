@@ -29,7 +29,8 @@
             <div class="colleft">
                 <div class="col1">
                     <!-- Column 1 start -->
-                    {{content}} <!-- Column 1 end -->
+                    <h3>or How I learned to stop worrying and love static content</h3>
+ <!-- Column 1 end -->
                 </div>
 
                 <div class="col2">
@@ -44,10 +45,13 @@
                     <!-- Column 3 start -->
 
                     <h2>Latest entries</h2>
-                    {% for post in site.posts limit:4 %}
-                    <p><a href="{{ post.url}}" rel="bookmark" title="Permanent link to ">{{ post.title }}</a> 
-                    {{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</p>
-                    {% endfor %} <!-- Column 3 end -->
+                    
+                    <p><a href="hello_jekyll.html" rel="bookmark" title="Permanent link to ">Hello Mr. Jekyll</a> 
+                    November  1, 2011</p>
+                    
+                    <p><a href="test.html" rel="bookmark" title="Permanent link to ">Test moving a blog into Jekyll</a> 
+                    October 26, 2011</p>
+                     <!-- Column 3 end -->
                 </div>
             </div>
         </div>

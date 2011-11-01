@@ -6,23 +6,37 @@ body {
 	background: url("/images/background.jpg") repeat-x scroll center top #dde4e0;
 	min-width:600px;		/* Minimum width of layout - remove line if not required */
 					/* The min-width property does not work in old versions of Internet Explorer */
-	font-size:90%;
 }
 a {
-	color:#369;
+	color:#222;
 }
 a:hover {
 	color:#fff;
-	background:#369;
 	text-decoration:none;
 }
-h1, h2, h3 {
-	margin:.8em 0 .2em 0;
-	padding:0;
+
+a:hover img {
+background: none;
 }
+
+h1, h2, h3 {
+  color: #fff;
+	margin:.8em 0 .2em 0;
+	padding:0px 10px;
+	text-shadow: black 0px 0px 5px, black 0px 0px 10px}
+p:first-letter{
+               text-transform: uppercase;
+               color: #fff;
+               text-shadow: black 0px 0px 5px, black 0px 0px 10px;
+               padding-left: 5px;
+          }
 p {
-	margin:.4em 0 .8em 0;
-	padding:0;
+
+margin: 40px auto;
+text-transform: lowercase;
+line-height: 145%;
+font-size: 14pt;
+
 }
 img {
 	margin:10px 0 5px;
@@ -74,7 +88,6 @@ img {
 	line-height:1.3em;
 }
 #header ul li a:hover {
-	background:#369;
 	color:#fff;
 }
 #header ul li a.active,
@@ -141,6 +154,8 @@ img {
 .threecol .col2 {
 	width:21%;			/* Width of left column content (column width minus padding on either side) */
 	left:31%;			/* width of (right column) plus (center column left and right padding) plus (left column left padding) */
+	min-height: 800px;
+	text-align: right;
 }
 .threecol .col3 {
 	width:21%;			/* Width of right column content (column width minus padding on either side) */
